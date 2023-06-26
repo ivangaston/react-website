@@ -2,6 +2,7 @@ import React from "react";
 const ContactoPage = (props) => {
     return (
         <main className="holder contacto" >
+            
             <div>
                 <h2>Contacto rapido</h2>
                 <form action="" method="" className="formulario">
@@ -23,7 +24,7 @@ const ContactoPage = (props) => {
                         <textarea rows="" cols="" name=""></textarea>
                     </p>
 
-                    <p class='acciones'>
+                    <p className='acciones'>
                         <input type="submit" name="" value="Enviar" />
                     </p>
 
@@ -31,7 +32,7 @@ const ContactoPage = (props) => {
 
             </div>
 
-            <div class='datos'>
+            <div className='datos'>
                 <h2>Otras vias de comunicacion</h2>
                 <p>Puede contactarse con nosotros a traves de estos medios</p>
                 <ul>
@@ -41,8 +42,8 @@ const ContactoPage = (props) => {
                     <li>Twitter:</li>
                     <li>Skype:</li>
                 </ul>
-                
             </div>
+
         </main>
     );
 }

@@ -5,9 +5,9 @@ const Nav=(props)=>{
             <div>
                 <ul>
                     <li><Link to='/'>Home</Link></li>
-                    <li><Link to ='Nosotros'>Nosotros</Link></li>
-                    <li><Link to='Novedades'>Novedades</Link></li>
-                    <li><Link to='Contacto'>Contacto</Link></li>
+                    <li><Link to ='/Nosotros'>Nosotros</Link></li>
+                    <li><Link to='/Novedades'>Novedades</Link></li>
+                    <li><Link to='/Contacto'>Contacto</Link></li>
                 </ul>
             </div>
         </nav>
