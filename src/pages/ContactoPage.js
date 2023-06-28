@@ -1,7 +1,7 @@
 import React from "react";
 const ContactoPage = (props) => {
     return (
-        <main className="holder contacto" >
+        <main className="contactoPage" >
             
             <div>
                 <h2>Contacto rapido</h2>
@@ -38,9 +38,7 @@ const ContactoPage = (props) => {
                 <ul>
                     <li>Telefono: 4000-4000</li>
                     <li>Email: contacto@transportesx.com</li>
-                    <li>Facebook:</li>
-                    <li>Twitter:</li>
-                    <li>Skype:</li>
+                    <li>Facebook: @transportesx</li>
                 </ul>
             </div>
 

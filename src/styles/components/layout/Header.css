@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    gap: 0.5em;
+  }
+  h1{
+    font-size: 3.5em
+  }
+  .mainFoto{
+    margin: 1em;
+  }

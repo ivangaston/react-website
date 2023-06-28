@@ -8,6 +8,7 @@ import ContactoPage from './pages/ContactoPage';
 import HomePage from './pages/HomePage';
 import NosostrosPage from './pages/NosotrosPage';
 import NovedadesPage from './pages/NovedadesPage';
+import '../src/App.css'
 
 
 function App(params) {

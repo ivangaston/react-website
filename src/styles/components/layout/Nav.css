@@ -1,0 +1,22 @@
+nav{
+    background-color: rgba(0, 0, 255, 0.317); 
+    width: 100%;
+}
+nav>ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0.5em;
+    padding-inline-start: 1em;
+    padding-inline-end: 1em;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+
+  }
+  nav>ul>li:active{
+    transform: scale(0.9);
+    transition: ease 0.3s;
+  }

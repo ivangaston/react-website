@@ -1,11 +1,17 @@
 import React from "react";
 const NovedadesPage=(props)=>{
     return(
-        <section className="holder">
-            <h2>Novedades</h2>
-            <h3>titulo</h3>
-            <h4>subtitulo</h4>
-            <p>cuerpo</p>
+        <section className="novedadesPage">
+            <h2>Novedades 2023 </h2>
+            <p>Desde el comienzo del año 2023, hemos ampliado nuestras rutas nacionales e internacionales.</p>
+
+            <h3>Via Maritima</h3>
+            <img src="/images/home/img03.jpg" alt="barco"/>
+
+            <h3>Via Terrestre</h3>
+            <img src="/images/home/img04.jpg" alt="camion"/>
+
+            
         </section>
     );
 }
