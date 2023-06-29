@@ -1,0 +1,10 @@
+.novedadesPage{
+    margin: 1em;
+}
+.novedadesPage>p{
+    font-size: 1.5em;
+}
+.novedadesPage>img{
+    border-radius: 1em;
+    border: 2px solid black;
+}

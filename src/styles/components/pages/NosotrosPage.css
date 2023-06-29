@@ -1,21 +1,31 @@
-.personas{
+.historia>p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 2em 5em;
+}
+
+.personas {
     display: flex;
     gap: 0.5em;
     margin: 1em;
 }
-.persona{
+
+.persona {
     border-radius: 0.3em;
     border: 2px solid rgb(109, 108, 129);
     text-align: center;
-    background-color:  rgba(0, 0, 255, 0.317);
+    background-color: rgba(0, 0, 255, 0.317);
 }
-.persona>img{
-   display: block;
-   margin: auto;
+
+.persona>img {
+    display: block;
+    margin: auto;
 }
-.persona>h3{
-    text-decoration: underline goldenrod;
+
+.persona>h3 {
+    text-decoration: underline rgb(9, 2, 99);
 }
-.persona>p{
+
+.persona>p {
     padding: 0.5em;
 }
