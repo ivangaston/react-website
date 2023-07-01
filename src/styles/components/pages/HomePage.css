@@ -1,9 +1,10 @@
 .bienvenidos>h2 {
     font-size: 3em;
-    text-decoration: underline rgba(0, 0, 255, 0.537);
+    text-decoration: underline rgb(50, 138, 192);
     ;
 }
 
 .bienvenidos>p {
-    margin: 2em;
+    margin: 0.5em;
+    font-size: 1.2em;
 }

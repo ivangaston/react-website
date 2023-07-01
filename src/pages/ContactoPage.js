@@ -16,11 +16,11 @@ const ContactoPage = (props) => {
                         <input type="text" name="email" value="" />
                     </p>
                     <p className="pForm">
-                        <label for="telefono">Telefono </label>
+                        <label htmlFor="telefono">Telefono </label>
                         <input type="text" name="telefono" value="" />
                     </p>
                     <p className="pForm">
-                        <label for="mensaje">Mensaje </label>
+                        <label htmlFor="mensaje">Mensaje </label>
                         <textarea rows="5" cols="50" name="mensaje"></textarea>
                     </p>
                     <p className='acciones'>
